@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  pro_title: MyString
+  pro_des: MyString
+  userid: 1
+
+two:
+  pro_title: MyString
+  pro_des: MyString
+  userid: 1

@@ -1,0 +1,29 @@
+
+<h1>Products</h1> 
+    
+
+<table>
+  <thead>
+    <tr>
+      <th>Pro title</th>
+      <th>Pro des</th>
+      <th>Userid</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @products.each do |product| %>
+      <tr>
+        <td><%= product.pro_title %></td>
+        <td><%= product.pro_des %></td>
+        <td><%= product.userid %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+
+
